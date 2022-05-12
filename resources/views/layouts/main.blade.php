@@ -14,7 +14,7 @@
 
 
     <main>
-
+        @yield('main-content')
     </main>
 
     <footer>

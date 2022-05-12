@@ -11244,13 +11244,24 @@ textarea.form-control-lg {
   }
 }
 header {
-  height: 7vh;
+  height: 50px;
 }
 
 main {
-  height: 86vh;
+  height: calc(100vh - 100px);
+}
+main .row {
+  margin: 0 auto;
+}
+main .row h5, main .row .h5 {
+  color: brown;
+}
+main .row span {
+  font-style: oblique;
+  font-weight: 600;
+  color: rgb(135, 135, 138);
 }
 
 footer {
-  height: 7vh;
+  height: 50px;
 }

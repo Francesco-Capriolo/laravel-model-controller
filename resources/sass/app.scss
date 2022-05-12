@@ -3,13 +3,28 @@
 
 
 header {
-    height: 7vh;
+    height: 50px;
 }
 
 main {
-    height: calc(100vh - 14vh);
+    height: calc(100vh - 100px);
+
+    .row {
+        margin: 0 auto;
+
+        h5 {
+            color: brown;
+        }
+
+        span {
+            font-style: oblique;
+            font-weight: 600;
+            color: rgb(135, 135, 138);
+        }
+    }
 }
 
+
 footer {
-    height: 7vh;
+    height: 50px;
 }
