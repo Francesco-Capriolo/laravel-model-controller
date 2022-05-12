@@ -1,0 +1,15 @@
+//
+@import "~bootstrap/scss/bootstrap";
+
+
+header {
+    height: 7vh;
+}
+
+main {
+    height: calc(100vh - 14vh);
+}
+
+footer {
+    height: 7vh;
+}
